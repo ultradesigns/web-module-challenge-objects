@@ -39,8 +39,7 @@ Test your createMenuItems function by doing the following:
 // let steaksMenu=createMenuItem("T-Bone", 24.50, "thick-cut");
 // console.log(steaksMenu);
 // let ;
-// console.log(createMenuItem("Ham", 6, "lean"));
-
+// ppp
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
