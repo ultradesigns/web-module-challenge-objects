@@ -62,10 +62,10 @@ export const burger = {
   discount: function(discounted){
     let discounts;
     if(discounted === "teacher" || discounted === "students"){
-        return this.price*.25;
+        return this.price*.75;
      
     } else if (discounted ==="public"){
-      return this.price*.10;
+      return this.price*.90;
     }
     
   }
@@ -90,6 +90,7 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console
 */
+console.log(reviews[5].feedback);
 
 
 
@@ -100,6 +101,11 @@ Using the reviews array above do the following:
   2. log the whole array to the console, make sure the new review is inside of it   
 */
 
+reviews.push({name:"lance", rating: 5, feedback: "no comment"});
+  
+  console.log(reviews);
+
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -108,6 +114,8 @@ Reyna's feedback is missing! Use what you know to do the following:
   2. log the reviews array to the console to check your work
 */
 
+ reviews[7].feedback="this place is chill with really cool people, great for getting work done on weekdays";
+ console.log(reviews);
 
 
 
