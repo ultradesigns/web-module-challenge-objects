@@ -16,7 +16,7 @@ You've been contracted by a restaurant to start building out their website. Befo
 ### Task 1: Set up Project
 
 1. Fork the repo
-2. Clone your forked version of the repo
+2. Clone your forked version of the reponp
 3. cd into your repo and create a branch with your first and last name
 4. open the terminal in your vs code and type `npm install`
 5. next type `npm run test:watch` in your terminal
